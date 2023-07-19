@@ -1,10 +1,13 @@
 # teamKantibir
 Hex Genius
 
-Project Title:-Park It
+Project Title:-ParkIT
 
 Description:
-A smart parking system uses cutting-edge technology to effectively evaluate the information entered by the renter, manage parking spaces, and
+The current parking infrastructure is having issues with congestion, a lack of real-time information, and finding parking spaces. These problems 
+result in wasted time and fuel, worsened traffic, and frustration among drivers.
+
+ParkIT uses cutting-edge technology to effectively evaluate the information entered by the renter, manage parking spaces, and
 enhance the parking experience as a whole. By giving drivers and parking operators real-time information, it seeks to resolve common parking problems
 such a lack of available spaces, traffic, and time wastage.
 
