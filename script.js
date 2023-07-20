@@ -10,13 +10,16 @@ if (navigator.geolocation)
     function (position) {
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
+      console.log(latitude, longitude);
       const coords = [latitude, longitude];
+      const key = "FOWb9ZeXpOV49xriHrEd";
       var map = L.map("map").setView(coords, 13);
 
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map);
+      L.control.maptilerGeocoding({ apiKey: key }).addTo(map);
 
       L.marker(coords)
         .addTo(map)
